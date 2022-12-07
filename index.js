@@ -34,8 +34,8 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'test',
-      message: 'Which test have you performed that you would like to include in your README?',
+      name: 'tests',
+      message: 'Which tests have you performed that you would like to include in your README?',
     },
     {
       type: 'list',
