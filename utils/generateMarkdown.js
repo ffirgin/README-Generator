@@ -61,7 +61,7 @@ ${renderLicenseBadge(data.license)}
 
 ## Contact
 
-To contact me regarding this project, please reach out to me at ${data.email} or visit my GitHub profile at ${data.github}.
+To contact me regarding this project, please reach out to me at ${data.email} or visit my GitHub profile at https://github.com/${data.github}.
 
 `;
 }
