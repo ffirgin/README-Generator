@@ -1,5 +1,5 @@
 # README Generator
-[Recording Link](https://app.castify.com/view/93c084c3-ce83-4ac5-b76f-6ad451ff3df3)
+![Generating Example README recording](https://app.castify.com/view/93c084c3-ce83-4ac5-b76f-6ad451ff3df3)
 
 ## Description
 
