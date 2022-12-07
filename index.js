@@ -61,7 +61,6 @@ function init() {
   inquirer.prompt(questions)
   .then((response)=>{
     console.log("Creating your custom README file...");
-    // writeToFile("exampleREADME.md", generateMarkdown({response}));
     fs.writeFile('README.md', generateMarkdown(response), (err) =>
     err ? console.log(err) : console.log('Successfully created README.md') // Andre assisted with this
     );
