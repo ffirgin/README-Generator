@@ -55,17 +55,16 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  return fs.writeFile(fileName, data);
-}
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
   .then((response)=>{
     console.log("Creating your custom README file...");
-    writeToFile("exampleREADME.md", generateMarkdown({...response}));
+    // writeToFile("exampleREADME.md", generateMarkdown({response}));
+    fs.writeFile('README.md', generateMarkdown(response), (err) =>
+    err ? console.log(err) : console.log('Successfully created README.md') // Andre assisted with this
+    );
   });
 }
 
